@@ -5,8 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"gosrisdk/internal/net"
 	"net/http"
+
+	"github.com/nestorgonate/go-sri-sdk/internal/net"
 )
 
 type TaxpayerService struct {

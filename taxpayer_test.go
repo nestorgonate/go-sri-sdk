@@ -4,9 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"gosrisdk"
 	"os"
 	"testing"
+
+	"github.com/nestorgonate/go-sri-sdk"
 )
 
 func TestTaxpayerServiceListByRuc(t *testing.T) {
